@@ -66,8 +66,8 @@ const Hero = () => {
               size="lg"
               className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20 hover:border-white/50 px-8 py-6 rounded-lg"
             >
-              <Link href="/#about" className="flex items-center gap-2">
-                <span>Learn More</span>
+              <Link href="/mission" className="flex items-center gap-2">
+                <span>Our Mission</span>
                 <ArrowRight className="h-5 w-5" />
               </Link>
             </Button>

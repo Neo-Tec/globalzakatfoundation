@@ -49,6 +49,12 @@ const Navbar = () => {
               Home
             </Link>
             <Link
+              href="/mission"
+              className="text-foreground hover-underline font-medium transition-colors"
+            >
+              Mission
+            </Link>
+            <Link
               href="/#about"
               className="text-foreground hover-underline font-medium transition-colors"
             >

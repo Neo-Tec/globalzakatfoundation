@@ -108,22 +108,6 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/#projects"
-                  className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
-                >
-                  Our Projects
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/#videos"
-                  className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
-                >
-                  Impact Videos
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/donate"
                   className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
                 >
@@ -149,7 +133,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
                 >
-                  Water Wells
+                  Treat Poor Patients
                 </a>
               </li>
               <li>
@@ -157,7 +141,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
                 >
-                  Food Distribution
+                  Support Underprivileged Marriages
                 </a>
               </li>
               <li>
@@ -165,7 +149,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
                 >
-                  Orphan Sponsorship
+                  Train Muslim Bureaucrats
                 </a>
               </li>
               <li>
@@ -173,7 +157,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
                 >
-                  Education Support
+                  Develop Youth Skills
                 </a>
               </li>
               <li>
@@ -181,7 +165,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
                 >
-                  Healthcare Projects
+                  Fund Higher Education
                 </a>
               </li>
               <li>
@@ -189,7 +173,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
                 >
-                  Emergency Relief
+                  Support Islamic Madrasas
                 </a>
               </li>
             </ul>
@@ -221,26 +205,6 @@ const Footer = () => {
           <p className="text-gray-500 mb-4 md:mb-0">
             &copy; {currentYear} GlobalZakat Foundation. All rights reserved.
           </p>
-          <div className="flex justify-center md:justify-end space-x-6">
-            <a
-              href="#"
-              className="text-gray-500 hover:text-zakat-secondary transition-colors text-sm"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-zakat-secondary transition-colors text-sm"
-            >
-              Terms of Service
-            </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-zakat-secondary transition-colors text-sm"
-            >
-              Cookies Policy
-            </a>
-          </div>
         </div>
       </div>
     </footer>
