@@ -112,11 +112,7 @@ const AboutSection = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className={`glass-card rounded-xl p-6 transition-all duration-700 transform ${
-                isVisible
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-20"
-              }`}
+              className={`glass-card rounded-xl p-6 transition-all`}
               style={{ transitionDelay: `${index * 150}ms` }}
             >
               <div className="mb-4">{feature.icon}</div>
@@ -129,9 +125,7 @@ const AboutSection = () => {
         </div>
 
         <div
-          className={`mt-16 bg-white rounded-xl shadow-xl overflow-hidden transition-all duration-1000 transform ${
-            isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
-          }`}
+          className={`mt-16 bg-white rounded-xl shadow-xl overflow-hidden transition-all`}
         >
           <div className="grid md:grid-cols-2">
             <div className="p-8 md:p-12 flex flex-col justify-center">
