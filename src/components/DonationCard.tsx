@@ -1,9 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Heart } from "lucide-react";
+// import { useState } from "react";
 
 interface DonationCardProps {
   title: string;
@@ -16,18 +13,18 @@ interface DonationCardProps {
 const DonationCard = ({
   title,
   description,
-  imageSrc,
-}: // raised,
+}: // imageSrc,
+// raised,
 // goal,
 DonationCardProps) => {
-  const [isHovered, setIsHovered] = useState(false);
+  // const [isHovered, setIsHovered] = useState(false);
   // const progress = Math.min((raised / goal) * 100, 100);
 
   return (
     <div
       className="rounded-xl overflow-hidden shadow-lg bg-white transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      // onMouseEnter={() => setIsHovered(true)}
+      // onMouseLeave={() => setIsHovered(false)}
     >
       {/* <div className="relative overflow-hidden" style={{ height: "200px" }}> */}
       {/* <img
