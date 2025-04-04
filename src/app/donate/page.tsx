@@ -102,84 +102,27 @@ const Donate = () => {
                     </p>
 
                     <div className="space-y-4 mb-6">
-                      <div>
-                        <div className="flex justify-between items-center mb-1">
-                          <span className="font-medium text-sm text-zakat-dark">
-                            Clean Water
-                          </span>
-                          <span className="text-xs text-gray-500">30%</span>
-                        </div>
-                        <div className="w-full bg-gray-200 rounded-full h-2">
-                          <div
-                            className="bg-zakat-primary h-2 rounded-full"
-                            style={{ width: "30%" }}
-                          ></div>
-                        </div>
-                      </div>
-
-                      <div>
-                        <div className="flex justify-between items-center mb-1">
-                          <span className="font-medium text-sm text-zakat-dark">
-                            Food Security
-                          </span>
-                          <span className="text-xs text-gray-500">25%</span>
-                        </div>
-                        <div className="w-full bg-gray-200 rounded-full h-2">
-                          <div
-                            className="bg-zakat-secondary h-2 rounded-full"
-                            style={{ width: "25%" }}
-                          ></div>
-                        </div>
-                      </div>
-
-                      <div>
-                        <div className="flex justify-between items-center mb-1">
-                          <span className="font-medium text-sm text-zakat-dark">
-                            Education
-                          </span>
-                          <span className="text-xs text-gray-500">20%</span>
-                        </div>
-                        <div className="w-full bg-gray-200 rounded-full h-2">
-                          <div
-                            className="bg-zakat-accent h-2 rounded-full"
-                            style={{ width: "20%" }}
-                          ></div>
-                        </div>
-                      </div>
-
-                      <div>
-                        <div className="flex justify-between items-center mb-1">
-                          <span className="font-medium text-sm text-zakat-dark">
-                            Healthcare
-                          </span>
-                          <span className="text-xs text-gray-500">15%</span>
-                        </div>
-                        <div className="w-full bg-gray-200 rounded-full h-2">
-                          <div
-                            className="bg-zakat-primary h-2 rounded-full"
-                            style={{ width: "15%" }}
-                          ></div>
-                        </div>
-                      </div>
-
-                      <div>
-                        <div className="flex justify-between items-center mb-1">
-                          <span className="font-medium text-sm text-zakat-dark">
-                            Emergency Relief
-                          </span>
-                          <span className="text-xs text-gray-500">10%</span>
-                        </div>
-                        <div className="w-full bg-gray-200 rounded-full h-2">
-                          <div
-                            className="bg-zakat-secondary h-2 rounded-full"
-                            style={{ width: "10%" }}
-                          ></div>
-                        </div>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 bg-zakat-primary/10 text-zakat-dark font-medium text-sm rounded-full">
+                          Treat Poor Patients
+                        </span>
+                        <span className="px-3 py-1 bg-zakat-primary/10 text-zakat-dark font-medium text-sm rounded-full">
+                          Support Islamic Madrasas
+                        </span>
+                        <span className="px-3 py-1 bg-zakat-primary/10 text-zakat-dark font-medium text-sm rounded-full">
+                          Support Underprivileged Marriages
+                        </span>
+                        <span className="px-3 py-1 bg-zakat-primary/10 text-zakat-dark font-medium text-sm rounded-full">
+                          Develop Youth skills
+                        </span>
+                        <span className="px-3 py-1 bg-zakat-primary/10 text-zakat-dark font-medium text-sm rounded-full">
+                          Emergency Relief
+                        </span>
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-6 bg-zakat-dark text-white">
+                  {/* <div className="p-6 bg-zakat-dark text-white">
                     <h3 className="text-lg font-bold mb-2">Our Impact</h3>
                     <div className="grid grid-cols-3 gap-4 text-center">
                       <div>
@@ -201,7 +144,7 @@ const Donate = () => {
                         <p className="text-xs text-gray-300">Projects</p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 

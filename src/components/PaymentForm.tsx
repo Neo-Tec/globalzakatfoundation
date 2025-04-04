@@ -129,7 +129,7 @@ const PaymentForm = () => {
       </div>
 
       {/* Step indicator */}
-      <div className="flex items-center justify-center mb-8">
+      {/* <div className="flex items-center justify-center mb-8">
         <div
           className={`flex items-center justify-center w-8 h-8 rounded-full ${
             currentStep === 1
@@ -153,12 +153,12 @@ const PaymentForm = () => {
         >
           2
         </div>
-      </div>
+      </div> */}
 
       <form onSubmit={handleSubmitDonation}>
         {currentStep === 1 ? (
           <div className="space-y-6 animate-fade-in">
-            <div>
+            {/* <div>
               <Label className="text-base font-medium text-gray-700 mb-3 block">
                 Select Donation Amount
               </Label>
@@ -196,9 +196,9 @@ const PaymentForm = () => {
                   </Label>
                 </div>
               </RadioGroup>
-            </div>
+            </div> */}
 
-            {isCustomAmount && (
+            {/* {isCustomAmount && (
               <div className="animate-fade-in">
                 <Label
                   htmlFor="custom-amount"
@@ -220,9 +220,9 @@ const PaymentForm = () => {
                   />
                 </div>
               </div>
-            )}
+            )} */}
 
-            <div className="space-y-3">
+            {/* <div className="space-y-3">
               <Label
                 htmlFor="name"
                 className="text-base font-medium text-gray-700 block"
@@ -244,7 +244,7 @@ const PaymentForm = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 required
               />
-            </div>
+            </div> */}
 
             <Button
               type="button"
