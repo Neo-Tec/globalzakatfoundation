@@ -120,11 +120,11 @@ const Navbar = () => {
                 Projects
               </Link>
               <Link
-                href="/#videos"
+                href="/mission"
                 className="text-foreground py-2 hover:text-zakat-primary transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Videos
+                Mission
               </Link>
               <Link
                 href="/#contact"

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1469041797191-50ace28483c3?auto=format&fit=crop&w=1200",
+    url: "./water.jpg",
     caption: "Providing water to drought-affected regions",
   },
   {
