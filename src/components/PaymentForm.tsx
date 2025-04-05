@@ -248,7 +248,8 @@ const PaymentForm = () => {
 
             <Button
               type="button"
-              onClick={nextStep}
+              // onClick={nextStep}
+              onClick={() => {}}
               className="w-full bg-zakat-primary hover:bg-zakat-dark text-white py-6 rounded-lg"
             >
               <span>Continue to Payment</span>
