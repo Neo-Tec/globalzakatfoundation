@@ -188,11 +188,7 @@ const AboutSection = () => {
             {values.map((value, index) => (
               <div
                 key={index}
-                className={`glass-card rounded-xl p-6 bg-white transition-all duration-700 transform ${
-                  isVisible
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-20"
-                }`}
+                className={`glass-card rounded-xl p-6 bg-white transition-all`}
                 style={{ transitionDelay: `${(index + 4) * 150}ms` }}
               >
                 <div className="mb-4">{value.icon}</div>
