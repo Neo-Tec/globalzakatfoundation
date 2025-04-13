@@ -100,14 +100,6 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/#about"
-                  className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/donate"
                   className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
                 >
@@ -116,7 +108,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/#contact"
+                  href="/contact"
                   className="text-gray-400 hover:text-zakat-secondary transition-colors hover-underline"
                 >
                   Contact
