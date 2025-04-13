@@ -220,7 +220,7 @@ const Contact = () => {
                 </div>
               </div> */}
 
-              <div className="md:col-span-3 p-8 md:p-12">
+              {/* <div className="md:col-span-3 p-8 md:p-12">
                 <h3 className="text-2xl font-bold text-zakat-dark mb-6">
                   Send Us a Message
                 </h3>
@@ -286,7 +286,7 @@ const Contact = () => {
                     {isSubmitting ? "Sending..." : "Send Message"}
                   </Button>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
