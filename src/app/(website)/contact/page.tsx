@@ -71,12 +71,15 @@ const Contact = () => {
     {
       icon: <Phone className="h-5 w-5 text-zakat-primary" />,
       title: "Call Us",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+      details: ["+91 9560626938", "+1 (555) 987-6543"],
     },
     {
       icon: <Mail className="h-5 w-5 text-zakat-primary" />,
       title: "Email Us",
-      details: ["info@WorldZakat.org", "donations@WorldZakat.org"],
+      details: [
+        "website.worldzakatfoundation@gmail.com",
+        "donations@WorldZakat.org",
+      ],
     },
   ];
 
