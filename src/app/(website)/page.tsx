@@ -7,6 +7,7 @@ import AboutSection from "@/components/AboutSection";
 import ImageGallery from "@/components/ImageGallery";
 import VideoSection from "@/components/VideoSection";
 import Footer from "@/components/Footer";
+import ImageSlide from "@/components/ImageSlide";
 
 const Index = () => {
   useEffect(() => {
@@ -17,6 +18,7 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
+      <ImageSlide />
       <AboutSection />
 
       {/* Current Projects Section */}

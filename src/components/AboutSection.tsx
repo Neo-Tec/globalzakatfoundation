@@ -124,7 +124,7 @@ const AboutSection = () => {
           ))}
         </div>
 
-        <div
+        {/* <div
           className={`mt-16 bg-white rounded-xl shadow-xl overflow-hidden transition-all`}
         >
           <div className="grid md:grid-cols-2">
@@ -166,7 +166,7 @@ const AboutSection = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Our Values Section */}
         <div className="mt-20">
