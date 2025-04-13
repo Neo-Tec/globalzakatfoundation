@@ -202,7 +202,7 @@ const AboutSection = () => {
         </div>
 
         {/* History Section */}
-        <div className="mt-20 grid md:grid-cols-5 gap-8 items-center">
+        {/* <div className="mt-20 grid md:grid-cols-5 gap-8 items-center">
           <div className="md:col-span-3">
             <span className="px-3 py-1 text-sm font-medium tracking-wider text-zakat-primary uppercase bg-zakat-primary/10 rounded-full">
               Our Journey
@@ -240,7 +240,7 @@ const AboutSection = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
