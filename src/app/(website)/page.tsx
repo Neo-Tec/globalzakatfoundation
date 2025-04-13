@@ -24,7 +24,7 @@ const Index = () => {
       {/* Current Projects Section */}
 
       <ImageGallery />
-      <VideoSection />
+      {/* <VideoSection /> */}
       <Footer />
     </div>
   );
