@@ -48,14 +48,14 @@ const Footer = () => {
           <div>
             <Link href="/" className="flex items-center space-x-2 mb-6">
               <span className="text-2xl font-heading font-bold text-white">
-                GlobalZakat
+                WorldZakat
               </span>
               <span className="text-2xl font-heading font-light text-zakat-secondary">
                 Foundation
               </span>
             </Link>
             <p className="text-gray-400 mb-6">
-              The GlobalZakat Foundation is dedicated to relieving poverty and
+              The WorldZakat Foundation is dedicated to relieving poverty and
               suffering by distributing Zakat and Sadaqah to those most in need
               around the world.
             </p>
@@ -194,7 +194,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-zakat-secondary flex-shrink-0" />
-                <span className="text-gray-400">info@globalzakat.org</span>
+                <span className="text-gray-400">info@WorldZakat.org</span>
               </li>
             </ul>
           </div>
@@ -203,7 +203,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="py-6 border-t border-white/10 text-center md:flex md:justify-between md:items-center">
           <p className="text-gray-500 mb-4 md:mb-0">
-            &copy; {currentYear} GlobalZakat Foundation. All rights reserved.
+            &copy; {currentYear} WorldZakat Foundation. All rights reserved.
           </p>
         </div>
       </div>

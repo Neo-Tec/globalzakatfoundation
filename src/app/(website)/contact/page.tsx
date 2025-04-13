@@ -76,7 +76,7 @@ const Contact = () => {
     {
       icon: <Mail className="h-5 w-5 text-zakat-primary" />,
       title: "Email Us",
-      details: ["info@globalzakat.org", "donations@globalzakat.org"],
+      details: ["info@WorldZakat.org", "donations@WorldZakat.org"],
     },
   ];
 
@@ -314,7 +314,7 @@ const Contact = () => {
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
-              title="GlobalZakat Foundation Map"
+              title="WorldZakat Foundation Map"
             ></iframe>
           </div>
         </div>

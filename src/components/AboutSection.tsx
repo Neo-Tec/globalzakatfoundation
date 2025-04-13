@@ -98,11 +98,11 @@ const AboutSection = () => {
             Our Mission
           </span>
           <h2 className="mt-4 text-3xl md:text-4xl font-bold text-zakat-dark">
-            About GlobalZakat Foundation
+            About WorldZakat Foundation
           </h2>
           <div className="w-16 h-1 bg-zakat-primary mx-auto mt-6 mb-8 rounded"></div>
           <p className="max-w-3xl mx-auto text-lg text-gray-600">
-            The GlobalZakat Foundation is dedicated to relieving poverty and
+            The WorldZakat Foundation is dedicated to relieving poverty and
             suffering by distributing Zakat and Sadaqah to those most in need
             around the world, in accordance with Islamic principles.
           </p>
@@ -179,7 +179,7 @@ const AboutSection = () => {
             </h2>
             <div className="w-16 h-1 bg-zakat-primary mx-auto mt-6 mb-8 rounded"></div>
             <p className="max-w-3xl mx-auto text-lg text-gray-600">
-              At GlobalZakat Foundation, our work is guided by these core values
+              At WorldZakat Foundation, our work is guided by these core values
               that define who we are and how we serve those in need.
             </p>
           </div>
@@ -208,13 +208,13 @@ const AboutSection = () => {
               Our Journey
             </span>
             <h3 className="mt-4 text-2xl md:text-3xl font-bold text-zakat-dark mb-6">
-              The GlobalZakat Story
+              The WorldZakat Story
             </h3>
             <div className="space-y-4 text-gray-600">
               <p>
                 Founded in 2010 by a group of passionate Muslim philanthropists,
-                GlobalZakat Foundation began with a simple mission: to serve as
-                a bridge between those with means and those in desperate need.
+                WorldZakat Foundation began with a simple mission: to serve as a
+                bridge between those with means and those in desperate need.
               </p>
               <p>
                 What started as a small initiative in three countries has now
@@ -224,7 +224,7 @@ const AboutSection = () => {
                 alongside immediate emergency relief.
               </p>
               <p>
-                Today, GlobalZakat Foundation is recognized as a leading
+                Today, WorldZakat Foundation is recognized as a leading
                 international Islamic charity, known for its commitment to
                 transparency, efficiency, and adherence to Islamic principles in
                 collecting and distributing Zakat and Sadaqah funds.
@@ -235,7 +235,7 @@ const AboutSection = () => {
             <div className="rounded-xl overflow-hidden shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=800"
-                alt="GlobalZakat Foundation history"
+                alt="WorldZakat Foundation history"
                 className="w-full h-full object-cover"
               />
             </div>

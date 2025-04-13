@@ -43,7 +43,7 @@ const Donate = () => {
               <div className="lg:col-span-3 order-2 lg:order-1">
                 <div className="bg-zakat-light p-6 rounded-2xl mb-8">
                   <h2 className="text-xl font-bold text-zakat-dark mb-4">
-                    Why Donate to GlobalZakat?
+                    Why Donate to WorldZakat?
                   </h2>
                   <ul className="space-y-4">
                     <li className="flex items-start">

@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <span className="text-2xl font-heading font-bold text-zakat-primary">
-              GlobalZakat
+              WorldZakat
             </span>
             <span className="text-2xl font-heading font-light text-zakat-accent">
               Foundation
